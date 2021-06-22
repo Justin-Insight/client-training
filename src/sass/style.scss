@@ -1,27 +1,37 @@
+/* montserrat-regular - latin */
 @font-face {
-  font-family: "Baloo 2";
+  font-family: "Montserrat";
   font-style: normal;
-  font-weight: normal;
-  src: local("Baloo 2 Regular"), local("Baloo-2-Regular"),
-    url("../fonts/baloo-2-v1-latin-regular.woff2") format("woff2");
-  font-display: swap;
+  font-weight: 400;
+  src: local(""), url("../fonts/montserrat-v15-latin-regular.woff2") format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */ url("../fonts/montserrat-v15-latin-regular.woff")
+      format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* montserrat-italic - latin */
+@font-face {
+  font-family: "Montserrat";
+  font-style: italic;
+  font-weight: 400;
+  src: local(""), url("../fonts/montserrat-v15-latin-italic.woff2") format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */ url("../fonts/montserrat-v15-latin-italic.woff")
+      format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* montserrat-700 - latin */
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  src: local(""), url("../fonts/montserrat-v15-latin-700.woff2") format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */ url("../fonts/montserrat-v15-latin-700.woff")
+      format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
-@font-face {
-  font-family: "Baloo 2";
-  font-style: normal;
-  font-weight: 500;
-  src: local("Baloo 2 Medium"), local("Baloo-2-Medium"),
-    url("../fonts/baloo-2-v1-latin-500.woff2") format("woff2");
-  font-display: swap;
-}
-
-@import "theme";
+// @import "theme";
 @import "reset";
-@import "layout";
-@import "sitenav";
-@import "typography";
-@import "buttons";
-@import "card";
-@import "prism";
-@import "utilities";
+// @import "layout";
+// @import "sitenav";
+// @import "typography";
+// @import "buttons";
+// @import "card";
+// @import "prism";
+// @import "utilities";
