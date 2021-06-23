@@ -53,5 +53,8 @@
   },
   "browserslist": [
     "last 2 versions"
-  ]
+  ],
+  "dependencies": {
+    "clean-css": "^5.1.2"
+  }
 }

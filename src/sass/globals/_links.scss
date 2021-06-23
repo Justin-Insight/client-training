@@ -1,0 +1,8 @@
+a:focus {
+  outline: $primaryColor dashed 2px;
+  outline-offset: 0.25rem;
+}
+a {
+  color: currentColor;
+  text-decoration-color: $secondaryColor;
+}

@@ -46,14 +46,15 @@
     />
   </head>
   <body>
+    {% include "partials/site-head.njk" %}
     {{ content | safe }}
 
-    <footer class="tdbc-background--secondary">
+    {# <footer class="tdbc-background--secondary">
       <div class="tdbc-container tdbc-text-align-center">
         <div class="tdbc-row tdbc-ink--light tdbc-mx-auto">
           <p class="tdbc-mb-none">&copy; {% year %} {{ meta.siteName }} • {% packageVersion %}</p>
         </div>
       </div>
-    </footer>
+    </footer> #}
   </body>
 </html>
