@@ -1,5 +1,6 @@
 ---
+title: "Insight Creative, Inc. Website Training"
 layout: home.njk
 ---
 
-Here is some content for the homepage
+Silence is golden

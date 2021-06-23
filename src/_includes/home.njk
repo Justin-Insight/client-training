@@ -3,8 +3,13 @@ description:
 layout: base.njk
 templateEngineOverride: md, njk
 ---
-<main class="tdbc-container">
-
-{{ content | safe }}
-
+<div class="page-header bg-secondary pt-600 pb-600">
+  <div class="wrapper">
+    <h1 class="mb-none">{{ title }}</h1>
+  </div>
+</div>
+<main id="main-content" class="wrapper pt-400 pb-400" tabindex="-1">
+  <article class="max-80 page-body">
+    {{ content | safe }}
+  </article>
 </main>
