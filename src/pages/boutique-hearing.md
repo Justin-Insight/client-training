@@ -26,7 +26,7 @@ Netlify CMS is a much simpler Content Management System than the old WordPress w
 
 ### Collections
 
-Collections are the groupings of editable content for your website. This site consists of Posts and Testimonials
+Collections are the groupings of editable content for your website. This site consists of Posts and Testimonials.
 
 ## Managing Content
 
@@ -45,7 +45,7 @@ Collections are the groupings of editable content for your website. This site co
 ### Editing an Existing Post or Testimonial
 
 1. Click either Post or Testimonial in the Collections menu.
-2. Click on the post or testimonial that you are looking to edit
+2. Click on the post or testimonial that you are looking to edit.
 3. Make your changes in the content editor on the left-hand side.
 4. When you are ready to publish your changes, click Publish in the top right corner.
 
@@ -53,4 +53,4 @@ Collections are the groupings of editable content for your website. This site co
 
 The method your site builds pages/posts is different from the old WordPress website. Your new site does all the work up front to prepare files for your site visitors so they can be delivered much faster. After creating a new post, sit back and enjoy some coffee and give it a minute or two to rebuild your site and then go view your newly published blog post.
 
-**_Pro Tip:_** If planning to make multiple changes to your posts at the same time, plan to make your easy changes first ex. An edit to an existing blog post. While your site rebuilds, you can then tackle your larger change ex. Posting a brand new blog post. This leads to an editing process that still feels productive and reduces waiting times.
+**_Pro Tip:_** If planning to make multiple changes to your posts at the same time, plan to make your easy changes first (e.g. An edit to an existing blog post). While your site rebuilds, you can then tackle your larger change (e.g. Posting a brand new blog post). This leads to an editing process that still feels productive and reduces waiting times.
