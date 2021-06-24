@@ -178,10 +178,10 @@ There will rarely be a time when you want to upload a full resolution image to y
 
 To optimize an image. Make sure to only use .jpg image files. .png files save a lot more image data and can easily make an identical image four times the file size of a jpg. If you are using an image editor like photoshop you will have image options when you save. Save as the lowest quality you can before your image starts to look bad. When done right, it’s rare that the loss of image quality will be noticeable to an untrained eye.
 
-</div>
-
 After you save your image drop it into an image optimizer such as <a href="https://tinypng.com/" target="_blank" rel="noopener noreferrer" class="external">https://tinypng.com/</a>
 This will optimize the image one step further for the web, typically cutting down the file size in half. You should shoot for under 100kb file size for all images you load to the site.
+
+</div>
 
 ## Editing Basic Store Information
 
