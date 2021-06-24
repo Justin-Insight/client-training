@@ -1,5 +1,15 @@
 * {
   box-sizing: border-box;
+  max-width: $measure;
+}
+html,
+body,
+div,
+header,
+nav,
+main,
+footer {
+  max-width: none;
 }
 body {
   background-color: $black;

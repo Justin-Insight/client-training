@@ -17,7 +17,7 @@ description: "Website Training for Boutique Hearing"
 
 ## Logging in
 
-1. Navigate to <a href="https://boutiquehearing.com/admin/#/" target="_blank" rel="noopener noreferrer">https://boutiquehearing.com/admin/#/</a>
+1. Navigate to <a href="https://boutiquehearing.com/admin/#/" target="_blank" rel="noopener noreferrer" class="external">https://boutiquehearing.com/admin/#/</a>
 2. Enter in your email and password to log in
 
 ## Admin Dashboard Overview

@@ -24,21 +24,21 @@ description: "Website Training for The Meat Block"
 
 ## Documents and Resources
 
-<a href="https://docs.woocommerce.com/document/managing-products/" target="_blank" rel="noopener noreferrer">Adding and Managing Products</a>
+<a href="https://docs.woocommerce.com/document/managing-products/" target="_blank" rel="noopener noreferrer" class="external">Adding and Managing Products</a>
 
-<a href="https://docs.woocommerce.com/document/related-products-up-sells-and-cross-sells/" target="_blank" rel="noopener noreferrer">Set up Related Products, Up-Sells and Cross-Sells</a>
+<a href="https://docs.woocommerce.com/document/related-products-up-sells-and-cross-sells/" target="_blank" rel="noopener noreferrer" class="external">Set up Related Products, Up-Sells and Cross-Sells</a>
 
-<a href="https://docs.woocommerce.com/document/managing-orders/" target="_blank" rel="noopener noreferrer">Managing Orders</a>
+<a href="https://docs.woocommerce.com/document/managing-orders/" target="_blank" rel="noopener noreferrer" class="external">Managing Orders</a>
 
-<a href="https://woocommerce.com/posts/coupons-with-woocommerce/" target="_blank" rel="noopener noreferrer">Creating Coupons</a>
+<a href="https://woocommerce.com/posts/coupons-with-woocommerce/" target="_blank" rel="noopener noreferrer" class="external">Creating Coupons</a>
 
-<a href="https://docs.woocommerce.com/document/roles-capabilities/" target="_blank" rel="noopener noreferrer">WooCommerce Roles</a>
+<a href="https://docs.woocommerce.com/document/roles-capabilities/" target="_blank" rel="noopener noreferrer" class="external">WooCommerce Roles</a>
 
-<a href="https://wordpress.org/support/article/roles-and-capabilities/" target="_blank" rel="noopener noreferrer">WordPress Roles</a>
+<a href="https://wordpress.org/support/article/roles-and-capabilities/" target="_blank" rel="noopener noreferrer" class="external">WordPress Roles</a>
 
 ## Logging In
 
-To log in to the admin dashboard, navigate to <a href="https://themeatblock.com/wp-admin" target="_blank" rel="noopener noreferrer">themeatblock.com/wp-admin</a>. Enter your username and password and click Log In.
+To log in to the admin dashboard, navigate to <a href="https://themeatblock.com/wp-admin" target="_blank" rel="noopener noreferrer" class="external">themeatblock.com/wp-admin</a>. Enter your username and password and click Log In.
 
 ## Admin Dashboard
 
@@ -74,7 +74,7 @@ Users allows you to add new users if you need to give access to additional emplo
 
 ### Adding an Attribute Group
 
-1. <a href="https://themeatblock.com/wp-admin/edit.php?post_type=product&page=product_attributes" target="_blank" rel="noopener noreferrer">Click here</a> to open up the product attributes.
+1. <a href="https://themeatblock.com/wp-admin/edit.php?post_type=product&page=product_attributes" target="_blank" rel="noopener noreferrer" class="external">Click here</a> to open up the product attributes.
 2. Type in the name you want for your new attribute group
 3. Slug will be auto-generated, you don’t need to do anything here
 4. Choose the sort order you want
@@ -90,7 +90,7 @@ Users allows you to add new users if you need to give access to additional emplo
 
 ## Product Filters
 
-The <a href="https://themeatblock.com/wp-admin/edit.php?post_type=br_product_filter" target="_blank" rel="noopener noreferrer">product filters</a> use product attribute groups to group similar products by specific features. This is to allow the ability to sort through various product attributes on the shop pages.
+The <a href="https://themeatblock.com/wp-admin/edit.php?post_type=br_product_filter" target="_blank" rel="noopener noreferrer" class="external">product filters</a> use product attribute groups to group similar products by specific features. This is to allow the ability to sort through various product attributes on the shop pages.
 
 To set up a new product filter hover or click on the tab BeRocket then choose product filters > filters. Here you will see all the active filters. Simply select one to edit if needed. To create a new filter:
 
@@ -103,7 +103,7 @@ To set up a new product filter hover or click on the tab BeRocket then choose pr
 ## Add Product Filter to Shop Sidebar
 
 1. Navigate to Appearance > Widgets
-2. Click and drag a “AAPF Filter Single” widget over to your sidebar area on the right. (See below)
+2. Click and drag a “AAPF Filter Single” widget over to your sidebar area on the right.
 3. Click the new filter to open the filter options
 4. Select the filter you want to apply
 5. Click “save”
@@ -117,8 +117,8 @@ To set up a new product filter hover or click on the tab BeRocket then choose pr
 3. Set your products featured image, click “set product image”
 4. Choose the image from your image library or upload a new image
 5. Image size should be about 700px x 700px.
-6. A really nice free photo editor if you don’t have tools like Photoshop is <a href="https://pixlr.com/" target="_blank" rel="noopener noreferrer">https://pixlr.com/</a>
-7. Save images as the lowest possible file size you can. Use a tool like <a href="https://tinypng.com/" target="_blank" rel="noopener noreferrer">https://tinypng.com/</a> to compress images and strip them of unnecessary data so they don’t slow down your website. Images should be no more than 100KB in size
+6. A really nice free photo editor if you don’t have tools like Photoshop is <a href="https://pixlr.com/" target="_blank" rel="noopener noreferrer" class="external">https://pixlr.com/</a>
+7. Save images as the lowest possible file size you can. Use a tool like <a href="https://tinypng.com/" target="_blank" rel="noopener noreferrer" class="external">https://tinypng.com/</a> to compress images and strip them of unnecessary data so they don’t slow down your website. Images should be no more than 100KB in size
 8. To add a gallery of images, click “Add product gallery images”, select as many images as you want from the media library or upload new images as needed. Remember to keep image file size in mind at all times.
 9. Product Brands. This is an optional field built with brand recognition in mind. Use this to show users what division of The Meat Block each product represents. To set a brand image for a specific product, click on “Product Brands”. Click “Add Image”, select the brand logo you wish to display with the specific product.
 10. Product Categories. Select the categories you wish to group this product. All the categories that were included in the sitemap should be added into the category list. If you don’t see the category you’re looking for, click “Add new category”, type in the category name you need, select a parent category if it applies, then click “Add new category” button to finalize your change
@@ -128,8 +128,8 @@ To set up a new product filter hover or click on the tab BeRocket then choose pr
 14. In the “Inventory” tab add a SKU or stock keeping unit. This isn’t absolutely needed but will help with search results in search engines, and also when users are searching for products onsite.
 15. Click “manage stock” to select stock options if you want to limit a product to a set number of items. Choose whether or not you want to allow backorders. Select a “Low stock threshold” if you want to get email notifications from your store letting you know when a product is low.
 16. In the “Shipping” tab, enter in your products shipping weight and dimensions.
-17. “Linked Products” are Up-Sells, Cross-Sells and Related Products. Learn more about these types of sells <a href="https://inchoo.net/magento/related-products-up-sells-cross-sells-in-magento/" target="_blank" rel="noopener noreferrer">here</a>
-18. “Attributes” are how your products will be filtered on the shop pages. Attributes are ways to group products by their specific features. To add attributes you first need to make sure you have <a href="https://themeatblock.com/wp-admin/edit.php?post_type=product&page=product_attributes" target="_blank" rel="noopener noreferrer">added your product attributes</a> to your store. Some have already been set up for you. Back in your new product, click on the select box of attributes, find the attribute that you want and click “add”. Next click on the “Values” field, this will open up a list of all the attribute options within that attribute group. Select the attribute that you want to apply. You can add as many attributes as you choose.
+17. “Linked Products” are Up-Sells, Cross-Sells and Related Products. Learn more about these types of sells <a href="https://inchoo.net/magento/related-products-up-sells-cross-sells-in-magento/" target="_blank" rel="noopener noreferrer" class="external">here</a>
+18. “Attributes” are how your products will be filtered on the shop pages. Attributes are ways to group products by their specific features. To add attributes you first need to make sure you have <a href="https://themeatblock.com/wp-admin/edit.php?post_type=product&page=product_attributes" target="_blank" rel="noopener noreferrer" class="external">added your product attributes</a> to your store. Some have already been set up for you. Back in your new product, click on the select box of attributes, find the attribute that you want and click “add”. Next click on the “Values” field, this will open up a list of all the attribute options within that attribute group. Select the attribute that you want to apply. You can add as many attributes as you choose.
 
 _Tip: A quick way to see all your attributes in an attribute group is to click the “Select All” button under the values field. Now you can see all attributes and remove the ones you don’t need._
 
@@ -137,7 +137,7 @@ To add additional attribute groups, simply start the process over by selecting a
 
 19. Enter a product short description to give a product a one or two-sentence description that will show up “above the fold” next to the product image. This gives you a chance to draw the viewer in with a little detail before they get down to the full product description.
 20. When you are ready to publish your new product to your site, scroll back to the top of the page, and click “Publish” in the top right corner.
-21. For more information on adding products see the <a href="https://docs.woocommerce.com/document/managing-products/" target="_blank" rel="noopener noreferrer">woocommerce documentation</a> for adding products.
+21. For more information on adding products see the <a href="https://docs.woocommerce.com/document/managing-products/" target="_blank" rel="noopener noreferrer" class="external">woocommerce documentation</a> for adding products.
 
 ## Group Product
 
@@ -158,7 +158,7 @@ To add additional attribute groups, simply start the process over by selecting a
 6. Next go to the “Variations” tab. Here you can choose “Add variation” or “create variations from all attributes”. To add a new variation select “Add variation” and click “go”.
 7. Select the attribute that you want to add as a variation. Now you can click on the new variation and open up all the associated fields with that variation. You can set a product image, price, stock options, weight and dimensions or shipping class, and your description. Make sure to do this for all variations of the product.
 8. When done click “publish”
-9. Learn more about <a href="https://docs.woocommerce.com/document/variable-product/" target="_blank" rel="noopener noreferrer">variable products</a>
+9. Learn more about <a href="https://docs.woocommerce.com/document/variable-product/" target="_blank" rel="noopener noreferrer" class="external">variable products</a>
 
 ## Adding and Managing Specials
 
@@ -168,13 +168,19 @@ To add additional attribute groups, simply start the process over by selecting a
 4. Next open the Categories tab. Select the type of special that you are creating. Specials are categorizes as either Regular Specials or Seafood Specials
 5. Next open the Featured image tab. Here you will add the image for your special.
 
-#### !!!!!!! Important !!!!!!!!!!
+<div class="warning">
+<div class="warning__svg-wrapper">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><title>ionicons-v5-r</title><path d="M85.57,446.25H426.43a32,32,0,0,0,28.17-47.17L284.18,82.58c-12.09-22.44-44.27-22.44-56.36,0L57.4,399.08A32,32,0,0,0,85.57,446.25Z" style="fill:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px"/><path d="M250.26,195.39l5.74,122,5.73-121.95a5.74,5.74,0,0,0-5.79-6h0A5.74,5.74,0,0,0,250.26,195.39Z" style="fill:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px"/><path d="M256,397.25a20,20,0,1,1,20-20A20,20,0,0,1,256,397.25Z"/></svg>
+</div>
+<h4>Important!</h4>
 
-There will never be a time when you want to upload a full resolution image to your website. Images are the most resource-intensive form of media that your site will load. Loading full-size images will drastically affect the performance of your website.
+There will rarely be a time when you want to upload a full resolution image to your website. Images are the most resource-intensive form of media that your site will load. Loading full-size images will drastically affect the performance of your website.
 
-To optimize an image. Make sure to only use .jpg image files. .png files save a lot more image data and can easily make an identical image four times the file size of a jpg. If you are using an image editor like photoshop you will have image options when you save. Save as the lowest quality allowed. It’s rare that the loss of image quality will be noticeable to an untrained eye.
+To optimize an image. Make sure to only use .jpg image files. .png files save a lot more image data and can easily make an identical image four times the file size of a jpg. If you are using an image editor like photoshop you will have image options when you save. Save as the lowest quality you can before your image starts to look bad. When done right, it’s rare that the loss of image quality will be noticeable to an untrained eye.
 
-After you save your image drop it into an image optimizer such as <a href="https://tinypng.com/" target="_blank" rel="noopener noreferrer">https://tinypng.com/</a>
+</div>
+
+After you save your image drop it into an image optimizer such as <a href="https://tinypng.com/" target="_blank" rel="noopener noreferrer" class="external">https://tinypng.com/</a>
 This will optimize the image one step further for the web, typically cutting down the file size in half. You should shoot for under 100kb file size for all images you load to the site.
 
 ## Editing Basic Store Information
@@ -192,7 +198,7 @@ This will optimize the image one step further for the web, typically cutting dow
 
 ## Create Coupons
 
-WooCommerce has a built in way to provide coupons with flexible configurations. To learn more about coupons and what you can all do first <a href="https://woocommerce.com/posts/coupons-with-woocommerce/" target="_blank" rel="noopener noreferrer">read more about coupons</a>. To create a coupon:
+WooCommerce has a built in way to provide coupons with flexible configurations. To learn more about coupons and what you can all do first <a href="https://woocommerce.com/posts/coupons-with-woocommerce/" target="_blank" rel="noopener noreferrer" class="external">read more about coupons</a>. To create a coupon:
 
 1. Navigate to Marketing < Coupons
 2. Give your coupon a title for the promotion. Optionally, add a description.
@@ -205,4 +211,4 @@ WooCommerce has a built in way to provide coupons with flexible configurations. 
 1. Type in the Username for your new account
 2. Enter in the Email address of the new user
 3. Enter in a First and Last name to make it clear who you are creating the account for
-4. Select the type of role that you want to give the new user. You will likely want to choose Store Manager or Author depending on what they are going to be doing on the website. Read more about <a href="https://docs.woocommerce.com/document/roles-capabilities/" target="_blank" rel="noopener noreferrer">WooCommerce Roles</a> and <a href="https://wordpress.org/support/article/roles-and-capabilities/" target="_blank" rel="noopener noreferrer">WordPress Roles</a>.
+4. Select the type of role that you want to give the new user. You will likely want to choose Store Manager or Author depending on what they are going to be doing on the website. Read more about <a href="https://docs.woocommerce.com/document/roles-capabilities/" target="_blank" rel="noopener noreferrer" class="external">WooCommerce Roles</a> and <a href="https://wordpress.org/support/article/roles-and-capabilities/" target="_blank" rel="noopener noreferrer" class="external">WordPress Roles</a>.

@@ -5,4 +5,19 @@ a:focus {
 a {
   color: currentColor;
   text-decoration-color: $secondaryColor;
+  &:hover,
+  &:focus {
+    color: $secondaryColor;
+    text-decoration-color: $lightGray;
+  }
+}
+.external {
+  &:after {
+    content: "↗";
+    color: $secondaryColor;
+    padding-left: 5px;
+    font-family: system-ui, -apple-system, sans-serif;
+    font-style: normal;
+    font-weight: 900;
+  }
 }

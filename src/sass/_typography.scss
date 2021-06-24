@@ -73,6 +73,9 @@ h6 {
   font-weight: 700;
   line-height: 1.3em;
 }
+.max-80 {
+  max-width: $measure;
+}
 h1,
 .h1 {
   font-size: $ic-700;

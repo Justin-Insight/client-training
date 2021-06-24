@@ -1,0 +1,27 @@
+.warning {
+  background: $primaryColor;
+  border-radius: 0.25rem;
+  padding: $ic-400;
+  margin-top: $ic-600;
+  position: relative;
+  //   border-left: $ic-300 solid $primaryColor;
+  &__svg-wrapper {
+    background: $tertiaryColor;
+    border-radius: 50%;
+    padding: $ic-200;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: -32px;
+    left: -32px;
+  }
+  svg {
+    width: $ic-700;
+    height: $ic-700;
+    fill: $lightGray;
+    stroke: $lightGray;
+  }
+  h4 {
+    margin-top: $ic-600;
+  }
+}
