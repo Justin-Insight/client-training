@@ -16,6 +16,8 @@
     left: -32px;
   }
   svg {
+    position: relative;
+    top: -5px;
     width: $ic-700;
     height: $ic-700;
     fill: $lightGray;

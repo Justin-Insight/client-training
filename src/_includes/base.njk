@@ -13,7 +13,14 @@
       content="{{pageDescription}}"
     />
     <link rel="icon" href="{{ '/favicon.png' | url }}" />
-    <link href="{{ '/css/style.css' | url }}" rel="stylesheet" />
+    <!-- capture the CSS content as a Nunjucks variable -->
+    {% set css %}
+      {% include "assets/css/style.css" %}
+    {% endset %}
+    <!-- feed it through our cssmin filter to minify -->
+    <style>
+      {{ css | cssmin | safe }}
+    </style>
     <meta name="twitter:card" content="summary_large_image" />
     {% if meta.twitterUsername %}
     <meta name="twitter:creator" content="@{{ meta.twitterUsername }}" />

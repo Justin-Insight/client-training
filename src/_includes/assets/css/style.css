@@ -1,0 +1,413 @@
+@charset "UTF-8";
+/*
+ * [Modified] Modern CSS Reset
+ * @link https://github.com/hankchizljaw/modern-css-reset
+*/
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+p,
+li,
+h1,
+h2,
+h3,
+h4 {
+  word-break: break-word;
+}
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  font-family: sans-serif;
+  font-size: 100%;
+  line-height: 1.5;
+  text-rendering: optimizeSpeed;
+}
+
+/* Make images easier to work with */
+img {
+  display: block;
+  max-width: 100%;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* Remove all animations and transitions for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+  *,
+*::before,
+*::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+
+  html {
+    scroll-behavior: initial;
+  }
+}
+/* mulish-regular - latin */
+@font-face {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  src: local(""), url("../fonts/mulish-v3-latin-regular.woff2") format("woff2"), url("../fonts/mulish-v3-latin-regular.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* mulish-700 - latin */
+@font-face {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  src: local(""), url("../fonts/mulish-v3-latin-700.woff2") format("woff2"), url("../fonts/mulish-v3-latin-700.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* mulish-italic - latin */
+@font-face {
+  font-family: "Mulish";
+  font-style: italic;
+  font-weight: 400;
+  src: local(""), url("../fonts/mulish-v3-latin-italic.woff2") format("woff2"), url("../fonts/mulish-v3-latin-italic.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* montserrat-regular - latin */
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  src: local(""), url("../fonts/montserrat-v15-latin-regular.woff2") format("woff2"), url("../fonts/montserrat-v15-latin-regular.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* montserrat-italic - latin */
+@font-face {
+  font-family: "Montserrat";
+  font-style: italic;
+  font-weight: 400;
+  src: local(""), url("../fonts/montserrat-v15-latin-italic.woff2") format("woff2"), url("../fonts/montserrat-v15-latin-italic.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* montserrat-700 - latin */
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  src: local(""), url("../fonts/montserrat-v15-latin-700.woff2") format("woff2"), url("../fonts/montserrat-v15-latin-700.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+html {
+  font-size: 100%;
+}
+
+body,
+button,
+input,
+select,
+optgroup,
+textarea {
+  font-family: "Mulish", sans-serif;
+  font-size: 1.333rem;
+  line-height: 3rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+  line-height: 1.3em;
+}
+
+.max-80 {
+  max-width: 80ch;
+}
+
+h1,
+.h1 {
+  font-size: 4.209rem;
+}
+
+h2,
+.h2 {
+  font-size: 3.157rem;
+}
+
+h3,
+.h3 {
+  font-size: 2.369rem;
+}
+
+h4,
+.h4 {
+  font-size: 1.777rem;
+}
+
+h5,
+.h5 {
+  font-size: 1.333rem;
+}
+
+h6,
+.h6 {
+  font-size: 1rem;
+}
+
+p {
+  margin: 0 0 1rem;
+}
+
+.page-body > * + * {
+  margin-top: 1.777rem;
+}
+
+ul {
+  line-height: 1.7rem;
+}
+
+article > ul > li + li,
+article > ol > li + li {
+  margin-top: 0.75rem;
+}
+article * + h2 {
+  margin-top: 4rem;
+}
+article * + h3 {
+  margin-top: 2rem;
+}
+
+pre code:not([class*=language]) {
+  width: 100%;
+  max-width: calc(100vw - 2rem);
+  overflow-x: auto;
+}
+
+blockquote {
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 1.5rem;
+  border-left: 2px solid tomato;
+  color: tomato;
+}
+blockquote,
+blockquote + * {
+  margin-top: 3rem;
+}
+blockquote :last-child {
+  margin-bottom: 0;
+}
+
+.pt-200 {
+  padding-top: 1rem;
+}
+
+.pb-200 {
+  padding-bottom: 1rem;
+}
+
+.pt-400 {
+  padding-top: 1.777rem;
+}
+
+.pb-400 {
+  padding-bottom: 1.777rem;
+}
+
+.pt-600 {
+  padding-top: 3.157rem;
+}
+
+.pb-600 {
+  padding-bottom: 3.157rem;
+}
+
+* {
+  box-sizing: border-box;
+  max-width: 80ch;
+}
+
+html,
+body,
+div,
+header,
+nav,
+main,
+footer {
+  max-width: none;
+}
+
+body {
+  background-color: #1d1d1d;
+  font-family: "Mulish", sans-serif;
+  color: #f6f6f6;
+  overflow-x: hidden;
+}
+
+ul {
+  margin: 0;
+}
+
+::-moz-selection {
+  background: rgba(113, 158, 184, 0.8);
+  color: #ffffff;
+}
+
+::selection {
+  background: rgba(113, 158, 184, 0.8);
+  color: #ffffff;
+}
+
+::-ms-selection {
+  background: rgba(113, 158, 184, 0.8);
+  color: #ffffff;
+}
+
+::-webkit-scrollbar {
+  height: 1rem;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #cd1f40;
+  border-radius: 0.25rem;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+  border: 1px solid #cd1f40;
+  border-radius: 0.25rem;
+}
+
+a:focus {
+  outline: #cd1f40 dashed 2px;
+  outline-offset: 0.25rem;
+}
+
+a {
+  color: currentColor;
+  text-decoration-color: #92981b;
+}
+a:hover, a:focus {
+  color: #92981b;
+  text-decoration-color: #f6f6f6;
+}
+
+.external:after {
+  content: "↗";
+  color: #92981b;
+  padding-left: 5px;
+  font-family: system-ui, -apple-system, sans-serif;
+  font-style: normal;
+  font-weight: 900;
+}
+
+.bg-secondary {
+  background-color: #292929;
+}
+
+.wrapper {
+  max-width: 63rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1.333rem;
+  padding-right: 1.333rem;
+}
+
+.skip-link:not(:focus),
+.visually-hidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: auto;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  white-space: nowrap;
+}
+
+.inner-wrapper {
+  max-width: 63rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1.333rem;
+  padding-right: 1.333rem;
+}
+
+.auto-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  grid-gap: 1.333rem;
+}
+
+.skip-link:focus {
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: get-size(300) get-size(500) get-size("base") get-size(500);
+  background-color: var(--color-action-bg);
+  color: var(--color-action-text);
+  line-height: 1;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.warning {
+  background: #cd1f40;
+  border-radius: 0.25rem;
+  padding: 1.777rem;
+  margin-top: 3.157rem;
+  position: relative;
+}
+.warning__svg-wrapper {
+  background: #8bc0c6;
+  border-radius: 50%;
+  padding: 1rem;
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  top: -32px;
+  left: -32px;
+}
+.warning svg {
+  position: relative;
+  top: -5px;
+  width: 4.209rem;
+  height: 4.209rem;
+  fill: #f6f6f6;
+  stroke: #f6f6f6;
+}
+.warning h4 {
+  margin-top: 3.157rem;
+}
