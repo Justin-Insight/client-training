@@ -148,6 +148,7 @@ h5,
 h6 {
   font-weight: 700;
   line-height: 1.3em;
+  margin-bottom: 0.65em;
 }
 
 .max-80 {
@@ -156,27 +157,27 @@ h6 {
 
 h1,
 .h1 {
-  font-size: 4.209rem;
+  font-size: 3.157rem;
 }
 
 h2,
 .h2 {
-  font-size: 3.157rem;
+  font-size: 2.369rem;
 }
 
 h3,
 .h3 {
-  font-size: 2.369rem;
+  font-size: 1.777rem;
 }
 
 h4,
 .h4 {
-  font-size: 1.777rem;
+  font-size: 1.333rem;
 }
 
 h5,
 .h5 {
-  font-size: 1.333rem;
+  font-size: 1rem;
 }
 
 h6,
@@ -184,6 +185,32 @@ h6,
   font-size: 1rem;
 }
 
+@media (min-width: 62em) {
+  h1,
+.h1 {
+    font-size: 4.209rem;
+  }
+
+  h2,
+.h2 {
+    font-size: 3.157rem;
+  }
+
+  h3,
+.h3 {
+    font-size: 2.369rem;
+  }
+
+  h4,
+.h4 {
+    font-size: 1.777rem;
+  }
+
+  h5,
+.h5 {
+    font-size: 1.333rem;
+  }
+}
 p {
   margin: 0 0 1rem;
 }
@@ -205,27 +232,6 @@ article * + h2 {
 }
 article * + h3 {
   margin-top: 2rem;
-}
-
-pre code:not([class*=language]) {
-  width: 100%;
-  max-width: calc(100vw - 2rem);
-  overflow-x: auto;
-}
-
-blockquote {
-  margin-left: 0;
-  margin-right: 0;
-  padding-left: 1.5rem;
-  border-left: 2px solid tomato;
-  color: tomato;
-}
-blockquote,
-blockquote + * {
-  margin-top: 3rem;
-}
-blockquote :last-child {
-  margin-bottom: 0;
 }
 
 .pt-200 {
@@ -250,6 +256,10 @@ blockquote :last-child {
 
 .pb-600 {
   padding-bottom: 3.157rem;
+}
+
+.no-margin {
+  margin: 0;
 }
 
 * {

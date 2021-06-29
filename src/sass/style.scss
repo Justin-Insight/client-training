@@ -1,9 +1,9 @@
-@import "reset";
-@import "globals/variables";
-@import "typography";
-@import "layout";
-@import "globals/body";
+@import "globals/reset";
 @import "globals/breakpoints";
+@import "globals/variables";
+@import "globals/typography";
+@import "globals/spacing";
+@import "globals/body";
 @import "globals/links";
 @import "globals/backgrounds";
 

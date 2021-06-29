@@ -72,33 +72,56 @@ h5,
 h6 {
   font-weight: 700;
   line-height: 1.3em;
+  margin-bottom: 0.65em;
 }
 .max-80 {
   max-width: $measure;
 }
 h1,
 .h1 {
-  font-size: $ic-700;
+  font-size: $ic-600;
 }
 h2,
 .h2 {
-  font-size: $ic-600;
+  font-size: $ic-500;
 }
 h3,
 .h3 {
-  font-size: $ic-500;
+  font-size: $ic-400;
 }
 h4,
 .h4 {
-  font-size: $ic-400;
+  font-size: $ic-300;
 }
 h5,
 .h5 {
-  font-size: $ic-300;
+  font-size: $ic-200;
 }
 h6,
 .h6 {
   font-size: $ic-200;
+}
+@include breakpoint(md) {
+  h1,
+  .h1 {
+    font-size: $ic-700;
+  }
+  h2,
+  .h2 {
+    font-size: $ic-600;
+  }
+  h3,
+  .h3 {
+    font-size: $ic-500;
+  }
+  h4,
+  .h4 {
+    font-size: $ic-400;
+  }
+  h5,
+  .h5 {
+    font-size: $ic-300;
+  }
 }
 p {
   margin: 0 0 1rem;
@@ -128,40 +151,5 @@ article {
     + h3 {
       margin-top: 2rem;
     }
-  }
-}
-
-// code:not([class*="language"]) {
-//   display: inline-flex;
-//   padding: 0.15em;
-//   background-color: tdbc-color("light");
-//   color: tdbc-color("gray");
-//   font-family: Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
-//   border: 1px solid scale-color(tdbc-color("gray"), $lightness: 50%);
-//   border-radius: 2px;
-//   font-size: 0.75em;
-//   line-height: 1.1;
-// }
-
-pre code:not([class*="language"]) {
-  width: 100%;
-  max-width: calc(100vw - 2rem);
-  overflow-x: auto;
-}
-
-blockquote {
-  margin-left: 0;
-  margin-right: 0;
-  padding-left: 1.5rem;
-  border-left: 2px solid tomato;
-  color: tomato;
-
-  &,
-  + * {
-    margin-top: 3rem;
-  }
-
-  :last-child {
-    margin-bottom: 0;
   }
 }
