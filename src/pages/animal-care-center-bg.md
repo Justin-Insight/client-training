@@ -44,7 +44,7 @@ To edit content such as business name, phone number and hours:
 1. Click on Pages in the Collections menu. Here you'll see a list of all your site's pages.
 2. Click on the page that you need to edit. Pages are broken out into three core sections, Page Title, SEO and Page Content.
    1. Page Title. This is your page's primary title.
-   2. SEO. SEO contains your SEO Title, Description, and Featured Image. The SEO Title is the page title that gets used by search engines, not a front-facing page title. Description is the meta description that gets used by search engines. Featured Image is an image that you can select that will be used as a featured image for social sharing. Note: this image doesn't actually get used on your website, only as a preview image when the site gets shared on social media.
+   2. SEO. SEO contains your SEO Title, Description and Featured Image. The SEO Title is the page title that gets used by search engines, not a front-facing page title. Description is the meta description that gets used by search engines. Featured Image is an image that you can select that will be used as a featured image for social sharing. Note: this image doesn't actually get used on your website, only as a preview image when the site gets shared on social media.
    3. Page Content. While this isn't necessarily labeled as such, the remaining fields are all your actual page content. Content is structured in the same order it is displayed on your page.
 3. When ready to publish, simply click the Publish button in the top right corner.
 
