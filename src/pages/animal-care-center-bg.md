@@ -36,7 +36,7 @@ Collections are the groupings of editable content for your website. This site co
 To edit content such as business name, phone number and hours:
 
 1. Navigate to Site Info > Business Info.
-2. Here you'll find options to edit business name, phone number, email adress, address, and hours. Make your desired change as needed and click Publish in the top right corner when you're ready to save and publish your change.
+2. Here you'll find options to edit business name, phone number, email address, address, and hours. Make your desired change as needed and click Publish in the top right corner when you're ready to save and publish your change.
 
 ### Editing Pages
 
@@ -44,7 +44,7 @@ To edit content such as business name, phone number and hours:
 2. Click on the page that you're needing to edit. Pages are broken out into three core sections, Page Title, SEO, and Page Content.
    1. Page Title. This is your pages primary title.
    2. SEO. SEO contains your SEO Title, Description, and Featured Image. The SEO Title is the page title that gets used by search engines, not a front facing page title. Description is the meta description that gets used by search engines. Featured Image is an image that you can select that will be used as a featured image for social sharing. Note: this image doesn't actually get used on your website, only as a preview image when the site gets shared on social media.
-   3. Page Content. While this isn't neccessarily labeled as such, the remaining fields are all your actual page content. Content is structured in the same order it is displayed on your page.
+   3. Page Content. While this isn't necessarily labeled as such, the remaining fields are all your actual page content. Content is structured in the same order it is displayed on your page.
 3. When ready to publish, simply click the Publish button in the top right corner.
 
 ## Special Considerations
