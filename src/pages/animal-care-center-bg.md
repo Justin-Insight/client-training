@@ -20,11 +20,11 @@ description: "Website Training for Animal Care Center of Buffalo Grove"
 ## Logging in
 
 1. Navigate to <a href="https://www.animalcarebg.com/admin/#/" target="_blank" rel="noopener noreferrer" class="external">https://www.animalcarebg.com/admin/#/</a>
-2. Enter in your email and password to log in
+2. Enter your email and password to log in
 
 ## Admin Dashboard Overview
 
-Your site uses Netlify CMS for a backend Content Management System. Netlify CMS focuses on only the items you need and cuts out everything unnecessary. Your content is stored and can be found in Collections.
+Your site uses Netlify CMS for a back-end Content Management System. Netlify CMS focuses on only the items you need and cuts out everything unnecessary. Your content is stored and can be found in Collections.
 
 ### Collections
 
@@ -37,14 +37,14 @@ Collections are the groupings of editable content for your website. This site co
 To edit content such as business name, phone number and hours:
 
 1. Navigate to Site Info > Business Info.
-2. Here you'll find options to edit business name, phone number, email address, address, and hours. Make your desired change as needed and click Publish in the top right corner when you're ready to save and publish your change.
+2. Here you'll find options to edit business name, phone number, email address, address and hours. Make your desired change as needed and click Publish in the top right corner when you're ready to save and publish your change.
 
 ### Editing Pages
 
 1. Click on Pages in the Collections menu. Here you'll see a list of all your site's pages.
-2. Click on the page that you're needing to edit. Pages are broken out into three core sections, Page Title, SEO, and Page Content.
-   1. Page Title. This is your pages primary title.
-   2. SEO. SEO contains your SEO Title, Description, and Featured Image. The SEO Title is the page title that gets used by search engines, not a front facing page title. Description is the meta description that gets used by search engines. Featured Image is an image that you can select that will be used as a featured image for social sharing. Note: this image doesn't actually get used on your website, only as a preview image when the site gets shared on social media.
+2. Click on the page that you need to edit. Pages are broken out into three core sections, Page Title, SEO and Page Content.
+   1. Page Title. This is your page's primary title.
+   2. SEO. SEO contains your SEO Title, Description, and Featured Image. The SEO Title is the page title that gets used by search engines, not a front-facing page title. Description is the meta description that gets used by search engines. Featured Image is an image that you can select that will be used as a featured image for social sharing. Note: this image doesn't actually get used on your website, only as a preview image when the site gets shared on social media.
    3. Page Content. While this isn't necessarily labeled as such, the remaining fields are all your actual page content. Content is structured in the same order it is displayed on your page.
 3. When ready to publish, simply click the Publish button in the top right corner.
 
@@ -58,16 +58,16 @@ Note: the hero images for all pages need to be sized at 2000x650. These images a
 </div>
 <h4>Important!</h4>
 
-There will never be a time when you want to upload a full resolution image to your website. Images are the most resource-intensive form of media that your site will load. Loading full-size images will drastically affect the performance of your website. If you're unsure how to handle images for the web, please reach out to <a href="https://insightcreative.com/contact/" target="_blank" rel="noopener noreferrer" class="external">Insight Creative, Inc.</a> for assistance.
+You will never need to upload a full resolution image to your website. Images are the most resource-intensive form of media that your site will load. Loading full-size images will negatively affect the performance of your website. If you're unsure how to handle images for the web, please reach out to <a href="https://insightcreative.com/contact/" target="_blank" rel="noopener noreferrer" class="external">Insight Creative, Inc.</a> for assistance.
 
-To optimize an image: make sure to only use .jpg image files. .png files save a lot more image data and can easily make an identical image four times the file size of a jpg. If you are using an image editor like photoshop you will have image options when you save. Save as the lowest quality you can before your image starts to look bad. When done right, it’s rare that the loss of image quality will be noticeable to an untrained eye.
+To optimize an image: make sure to only use .jpg image files. .png files save a lot more image data and can easily make an identical image four times the file size of a jpg. If you are using an image editor like Photoshop, you will have image options when you save. Save as the lowest quality you can before your image starts to look bad. When done right, it’s rare that the loss of image quality will be noticeable to an untrained eye.
 
-After you save your image drop it into an image optimizer such as <a href="https://tinypng.com/" target="_blank" rel="noopener noreferrer" class="external">https://tinypng.com/</a> This will optimize the image one step further for the web, typically cutting down the file size in half. You should shoot for under 100kb file size for all images you load to the site.
+After you save your image drop it into an image optimizer such as <a href="https://tinypng.com/" target="_blank" rel="noopener noreferrer" class="external">https://tinypng.com/</a> This will optimize the image one step further for the web, typically cutting the file size in half. You should shoot for under 100kb file size for all images you load to the site.
 
 </div>
 
 ## Special Considerations
 
-Your new site does all the work up front to prepare files for your site visitors so pages can be delivered much faster. After editing a page's content, sit back and enjoy some coffee and give it a minute to rebuild your site and then go view your newly published change on the front-end of your site.
+Your new site does all the work up front to prepare files for your site visitors so pages can be delivered much faster. After editing a page's content, sit back, and enjoy some coffee. Give it a minute to rebuild your site, and then go view your newly published change on the frontend of your site.
 
-**_Pro Tip:_** If planning to make multiple changes to your content at the same time, plan to make your easy changes first (e.g. An edit to an existing page). While your site rebuilds, you can then tackle your larger change (e.g. writing a new employee bio). This leads to an editing process that still feels productive and reduces waiting times.
+**_Pro Tip:_** If planning to make multiple changes to your content at the same time, make your easy changes first (e.g. An edit to an existing page). While your site rebuilds, you can then tackle your larger change (e.g. writing a new employee bio). This leads to an editing process that still feels productive and reduces waiting times.
