@@ -17,6 +17,7 @@ description: "Website Training for A to Z Machine"
     - [Editing Pages](#editing-pages)
     - [Adding New Hero Images](#adding-new-hero-images)
     - [Adding New Blog Posts](#adding-new-blog-posts)
+    - [Adding New Blog Equipment](#adding-new-equipment)
   - [Shortcodes](#shortcodes)
     - [Figure](#figure-example)
     - [Image Grid](#image-grid-example)
@@ -122,6 +123,16 @@ After you save your image, the front end of the website will automatically optim
 7. Select the category you want your post to be grouped within. Currently the category options are "Articles" and "News".
 8. Write out the main body of your post as needed using the rich text editor. In addition to the rich text editor, shortcodes allow injection of templated code blocks to add a little more power and flexibility to your posts. See the Shortcodes section for more detailed information on how to use these.
 9. When ready to publish, simply click the **_Publish_** button in the top right corner.
+
+### Adding New Equipment
+
+1. Click on **_Equipment_** in the Collections menu and then click **_New Equipment_**. You can also click **_Quick add_**, in the primary navigation menu, and then click **_Equipment_** from the dropdown.
+2. Equipment pages are broken out into three core sections, Page Title, SEO and Body Content. Enter in your title, seo title, date, draft state, description, image and body.
+3. Page Title. This is your page's primary title.
+4. SEO. SEO contains your SEO Title, Description and Featured Image. The SEO Title is the page title that gets used by search engines, not a front-facing page title. Description is the meta description that gets used by search engines. Featured Image is an image that you can select that will be used as a featured image for social sharing. Note: this image doesn't actually get used on your website, only as a preview image when the website gets shared on social media.
+5. Body Content. This will be the main body that holds all your pages content.
+6. Write out the main body of your page as needed using the rich text editor.
+7. When ready to publish, simply click the **_Publish_** button in the top right corner.
 
 ## Shortcodes
 
