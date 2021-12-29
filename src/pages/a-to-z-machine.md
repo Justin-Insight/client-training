@@ -17,7 +17,7 @@ description: "Website Training for A to Z Machine"
     - [Editing Pages](#editing-pages)
     - [Adding New Hero Images](#adding-new-hero-images)
     - [Adding New Blog Posts](#adding-new-blog-posts)
-    - [Adding New Blog Equipment](#adding-new-equipment)
+    - [Adding New Equipment](#adding-new-equipment)
   - [Shortcodes](#shortcodes)
     - [Figure](#figure-example)
     - [Image Grid](#image-grid-example)
