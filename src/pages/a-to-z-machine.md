@@ -31,13 +31,13 @@ description: "Website Training for A to Z Machine"
 
 ## What is Jamstack?
 
-Welcome to your new Jamstack website! Jamstack is an simpler architecture designed to make the web faster, more secure, and easier to scale. The core principles of pre-rendering, and decoupling, enable sites and applications to be delivered with greater confidence and resilience than ever before.
+Welcome to your new Jamstack website! Jamstack is an simpler architecture designed to make the web faster, more secure, and easier to scale. The core principles of pre-rendering and decoupling enable sites and applications to be delivered with greater confidence and resilience than ever before.
 
 Here are the main benefits provided by the Jamstack.
 
 #### Faster performance
 
-Serve pre-built markup and assets over a CDN.
+Serve pre-built markup and assets over a Content Delivery Network.
 
 #### More secure
 
@@ -96,7 +96,7 @@ To edit content such as business name, phone number and hours:
 
 ### Adding New Hero Images
 
-The hero images for all pages need to be sized at 2500x1000. These images are then automatically scaled, resized for smaller devices, and transformed to serve modern image formats. Always upload images as .jpg images, using .png images will break resizing and transformation functions.
+The hero images for all pages need to be sized at 2500x1000. These images are then automatically scaled, resized for smaller devices, and transformed to serve modern image formats. Always upload images as .jpg images. Using .png images will break resizing and transformation functions.
 
 <div class="warning">
 <div class="warning__svg-wrapper">
@@ -106,28 +106,28 @@ The hero images for all pages need to be sized at 2500x1000. These images are th
 
 You will never need to upload a full resolution image to your website. Images are the most resource-intensive form of media that your website will load. Loading full-size images will negatively affect the performance of your website and will hurt your search rankings. If you're unsure how to handle images for the web, please reach out to <a href="https://insightcreative.com/contact/" target="_blank" rel="noopener noreferrer" class="external">Insight Creative, Inc.</a> for assistance.
 
-To optimize an image: make sure to only use .jpg image files, .png files save a lot more image data and can easily make an identical image four times the file size of a .jpg. If you are using an image editor like Photoshop, you will have image options when you save. Save as the lowest quality you can before your image starts to look bad(usually 80% quality). When done right, it’s rare that the loss of image quality will be noticeable to an untrained eye.
+To optimize an image: make sure to only use .jpg image files. .png files save a lot more image data and can easily make an identical image four times the file size of a .jpg. If you are using an image editor like Photoshop, you will have image options when you save. Save as the lowest quality you can before your image starts to look bad (usually 80% quality). When done right, it’s rare that the loss of image quality will be noticeable to an untrained eye.
 
-After you save your image, the front end of the website will automatically optimize and transform your image into a more modern and performant iamge. This ensures your images are loading as fast as possible. You should always shoot for under 200kb file size for all images you load to the website.
+After you save your image, the front end of the website will automatically optimize and transform your image into a more modern and performant image. This ensures your images are loading as fast as possible. You should always shoot for under 200kb file size for all images you load to the website.
 
 </div>
 
 ### Adding New Blog Posts
 
 1. Click on **_Post_** in the Collections menu and then click **_New Post_**. You can also click **_Quick add_**, in the primary navigation menu, and then click **_Post_** from the dropdown.
-2. Posts are broken out into three core sections, Post Title, SEO and Body Content. Enter in your title, seo title, date, draft state, description, image and body.
+2. Posts are broken out into three core sections, Post Title, SEO and Body Content. Enter in your title, SEO title, date, draft state, description, image and body.
 3. Post Title. This is your post's primary title.
 4. SEO. SEO contains your SEO Title, Description and Featured Image. The SEO Title is the page title that gets used by search engines, not a front-facing page title. Description is the meta description that gets used by search engines. Featured Image is an image that you can select that will be used as a featured image for social sharing. Note: this image doesn't actually get used on your website, only as a preview image when the website gets shared on social media.
 5. Body Content. This will be the main body that holds all the content of your new post.
-6. Select your posts Publish Date. Typically it's best practice to set your date to the current date and time of writing. If scheduling posts is a feature requirement for content management, additional functionality will need to be built into the CMS to allow this.
+6. Select your post's Publish Date. Typically it's best practice to set your date to the current date and time of writing. If scheduling posts is a feature requirement for content management, additional functionality will need to be built into the CMS to allow this.
 7. Select the category you want your post to be grouped within. Currently the category options are "Articles" and "News".
-8. Write out the main body of your post as needed using the rich text editor. In addition to the rich text editor, shortcodes allow injection of templated code blocks to add a little more power and flexibility to your posts. See the Shortcodes section for more detailed information on how to use these.
+8. Write out the main body of your post as needed using the rich text editor. In addition to the rich text editor, shortcodes allow injection of templated code blocks to add a little more power and flexibility to your posts. [See the Shortcodes section](#shortcodes) for more detailed information on how to use these.
 9. When ready to publish, simply click the **_Publish_** button in the top right corner.
 
 ### Adding New Equipment
 
 1. Click on **_Equipment_** in the Collections menu and then click **_New Equipment_**. You can also click **_Quick add_**, in the primary navigation menu, and then click **_Equipment_** from the dropdown.
-2. Equipment pages are broken out into three core sections, Page Title, SEO and Body Content. Enter in your title, seo title, date, draft state, description, image and body.
+2. Equipment pages are broken out into three core sections, Page Title, SEO and Body Content. Enter in your title, SEO title, date, draft state, description, image and body.
 3. Page Title. This is your page's primary title.
 4. SEO. SEO contains your SEO Title, Description and Featured Image. The SEO Title is the page title that gets used by search engines, not a front-facing page title. Description is the meta description that gets used by search engines. Featured Image is an image that you can select that will be used as a featured image for social sharing. Note: this image doesn't actually get used on your website, only as a preview image when the website gets shared on social media.
 5. Body Content. This will be the main body that holds all your pages content.
@@ -136,7 +136,7 @@ After you save your image, the front end of the website will automatically optim
 
 ## Shortcodes
 
-Shortcodes are a convenient way of injecting templated code blocks into your content without needing to actually write any HTML code. Your website comes configured with a number of pre-built shortcodes that are ready to use. New shortcodes can also be built to accomodate future additions.
+Shortcodes are a convenient way to inject templated code blocks into your content without needing to actually write any HTML code. Your website comes configured with a number of pre-built shortcodes that are ready to use. New shortcodes can also be built to accomodate future additions.
 
 Some of the available shortcodes are:
 
@@ -179,7 +179,7 @@ Display a medium sized version of an image
 
 ### YouTube Embed Example
 
-The youtube shortcode embeds a responsive video player for YouTube videos. Only the ID of the video is required. Copy the YouTube video ID that follows v= in the video’s URL and pass it to the youtube shortcode.
+The YouTube shortcode embeds a responsive video player for YouTube videos. Only the ID of the video is required. Copy the YouTube video ID that follows v= in the video’s URL and pass it to the YouTube shortcode.
 
 \{\{\< youtube BHACKCNDMW8 \>\}\}
 
@@ -215,6 +215,6 @@ example URL https://twitter.com/SanDiegoZoo/status/1453110110599868418
 
 ## Special Considerations
 
-Your new Jamstack website does all the work up front to prepare files for your website visitors so pages can be delivered much faster. After editing a page's content, sit back, and enjoy some coffee. Give it a minute to rebuild your website, and then go view your newly published change on the frontend of your website.
+Your new Jamstack website does all the work up front to prepare files for your website visitors so pages can be delivered much faster. After editing a page's content, sit back, and enjoy some coffee. Give it a minute to rebuild your website, and then go view your newly published change on the front end of your website.
 
 **_Pro Tip:_** If planning to make multiple changes to your content at the same time, make your easy changes first (an edit to an existing page). While your website rebuilds, you can then tackle your larger change (writing a new blog post). This leads to an editing process that still feels productive and reduces waiting times.
