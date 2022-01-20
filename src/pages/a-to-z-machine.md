@@ -18,6 +18,7 @@ description: "Website Training for A to Z Machine"
     - [Adding New Hero Images](#adding-new-hero-images)
     - [Adding New Blog Posts](#adding-new-blog-posts)
     - [Adding New Equipment](#adding-new-equipment)
+    - [Adding Gallery Images](#adding-gallery-images)
   - [Shortcodes](#shortcodes)
     - [Figure](#figure-example)
     - [Image Grid](#image-grid-example)
@@ -42,14 +43,6 @@ Serve pre-built markup and assets over a Content Delivery Network.
 #### More secure
 
 No need to worry about server or database vulnerabilities.
-
-#### Less expensive
-
-Hosting of static files is very cheap.
-
-#### Better developer experience
-
-Front end developers can focus on the front end, without being tied to a monolithic architecture. This usually means quicker and more focused development.
 
 #### Scalability
 
@@ -97,6 +90,12 @@ To edit content such as business name, phone number and hours:
 ### Adding New Hero Images
 
 The hero images for all pages need to be sized at 2500x1000. These images are then automatically scaled, resized for smaller devices, and transformed to serve modern image formats. Always upload images as .jpg images. Using .png images will break resizing and transformation functions.
+
+### Adding Gallery Images
+
+The product galleries can be found on both the CNC Machining and Fabrication pages. Navigate down to the Parts Gallery section, here you will find a list of all your gallery images. Click open the accordion-style box to open the image options. Here you will find, an Image Small, Image Alt Text, and Image Large. Image Small is the preview or thumbnail image. Image alt text is alternative text or a description of your image that will be used by screen readers. Image Large is your full-size image that gets opened in the lightbox if an image is clicked.
+
+Gallery images need to be cropped to a square size to fit their given space, other image sizes will be stretched to fit the space. The Image Small version uses a 600 x 600 image, and the Image Large uses a 1600 x 1600 version of the image.
 
 <div class="warning">
 <div class="warning__svg-wrapper">
