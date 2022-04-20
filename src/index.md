@@ -1,6 +1,9 @@
 ---
-title: "Insight Creative, Inc. Website Training"
+title: "Insight Creative, Inc. Client Resources"
 layout: home.njk
 ---
 
-Silence is golden
+{%- for post in collections.general %}
+
+- [{{ post.data.title }}]({{ post.url }})
+  {%- endfor %}
