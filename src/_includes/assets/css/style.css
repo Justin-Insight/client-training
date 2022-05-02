@@ -353,6 +353,13 @@ a:hover, a:focus {
   padding-right: 1.333rem;
 }
 
+.wrapper-lg {
+  width: 100%;
+  max-width: 94rem;
+  margin-inline: auto;
+  padding-inline: 1.333rem;
+}
+
 .skip-link:not(:focus),
 .visually-hidden {
   border: 0;
@@ -420,4 +427,21 @@ a:hover, a:focus {
 }
 .warning h4 {
   margin-top: 3.157rem;
+}
+
+.back-to-top {
+  background-color: #cd1f40;
+  height: 3.157rem;
+  width: 3.157rem;
+  display: grid;
+  place-items: center;
+  position: fixed;
+  bottom: 1.333rem;
+  right: 0;
+  cursor: pointer;
+}
+.back-to-top svg {
+  height: 2.369rem;
+  width: 2.369rem;
+  stroke: #ffffff;
 }

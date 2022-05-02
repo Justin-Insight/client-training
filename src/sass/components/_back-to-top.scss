@@ -1,0 +1,17 @@
+.back-to-top {
+    background-color: $primaryColor;
+    height: $ic-600;
+    width: $ic-600;
+    display: grid;
+    place-items: center;
+    position: fixed;
+    bottom: $ic-300;
+    right: 0;
+    cursor: pointer;
+
+    svg {
+        height: $ic-500;
+        width: $ic-500;
+        stroke: $white;
+    }
+}
