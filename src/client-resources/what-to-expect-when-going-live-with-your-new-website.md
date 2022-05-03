@@ -8,7 +8,7 @@ As we finish up your website and prepare to go live into production, there are a
 
 ## DNS Propagation
 
-Taking your new website live requires changing your DNS settings. This DNS change points your domain name to your website hosting. While often referred to as “flipping the switch”, it’s more complicated than that. Due to internet caching across the world, this can result in a period of “propagation” of 24 - 48 hours. During this time some people may start to see your new website and some may still see your old website. Don’t worry, this is a normal part of making DNS changes and we do everything possible to bring the new website up for you and your customers as quickly as possible. During this time additional items like our security firewall and SSL certificates are also being implemented. All these need time to get fully configured and working properly.
+Taking your new website live requires changing your DNS settings. This DNS change points your domain name to your website hosting. While often referred to as “flipping the switch”, it’s more complicated than that. Due to internet caching across the world, this can result in a period of “propagation” of 24-48 hours. During this time, some people may start to see your new website and some may still see your old website. Don’t worry, this is a normal part of making DNS changes and we do everything possible to bring the new website up for you and your customers as quickly as possible. During this time, additional items like our security firewall and SSL certificates are also being implemented. All these need time to get fully configured and working properly.
 
 ## SSL Certificate Issuance
 
