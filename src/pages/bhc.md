@@ -40,7 +40,7 @@ Posts are all your website's blog posts.
 
 ### Media
 
-Media is where you upload all assets such as images, videos and PDFs. Media folder organization is powered by the free FileBird Lite plugin.
+Media is where you upload all assets such as images, videos and PDFs.
 
 <div class="warning">
 <div class="warning__svg-wrapper">
@@ -68,11 +68,7 @@ Add new users if you need to give access to additional employees who are going t
 
 ### Settings
 
-This is where you will find a variety of settings ranging from general website settings to writing, reading and permalinks. All settings are already configured to meet your needs. Changing these can be very dangerous and can do harm to your website, only change settings here if you know what you're doing.
-
-### Theme Settings
-
-This is where you will find options to hook into some global components that are used throughout your website. Components such as Call to Action blocks and mega menu data can be found here.
+This is where you will find a variety of settings ranging from general website settings to writing, reading and permalinks. All settings are already configured to meet your needs. Changing these can be very dangerous and can do harm to your website; only change settings here if you know what you're doing.
 
 ### SEO
 
