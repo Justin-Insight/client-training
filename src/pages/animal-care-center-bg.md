@@ -60,7 +60,7 @@ Note: the hero images for all pages need to be sized at 2000x650. These images a
 
 You will never need to upload a full resolution image to your website. Images are the most resource-intensive form of media that your site will load. Loading full-size images will negatively affect the performance of your website. If you're unsure how to handle images for the web, please reach out to <a href="https://insightcreative.com/contact/" target="_blank" rel="noopener noreferrer" class="external">Insight Creative, Inc.</a> for assistance.
 
-To optimize an image: make sure to only use .jpg image files. .png files save a lot more image data and can easily make an identical image four times the file size of a jpg. If you are using an image editor like Photoshop, you will have image options when you save. Save as the lowest quality you can before your image starts to look bad. When done right, it’s rare that the loss of image quality will be noticeable to an untrained eye.
+To optimize an image: make sure to only use .jpg image files. .png files save a lot more image data and will almost always be larger than a .jpg image. If you are using an image editor like Photoshop, you will have image options when you save. Save as the lowest quality you can before your image starts to look bad. When done right, it’s rare that the loss of image quality will be noticeable to an untrained eye.
 
 After you save your image drop it into an image optimizer such as <a href="https://tinypng.com/" target="_blank" rel="noopener noreferrer" class="external">https://tinypng.com/</a> This will optimize the image one step further for the web, typically cutting the file size in half. You should shoot for under 100kb file size for all images you load to the site.
 
