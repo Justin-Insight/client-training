@@ -73,7 +73,7 @@ Data acts as a database of global information used throughout your website. Data
 
 ### Managing Business Info
 
-1. Navigate to Data > Site Setings.
+1. Navigate to Data > Site Settings.
 2. Here you can edit your business name, address, phone, fax, email and social media links.
 3. As soon as you make a change, you will see the save button in the top right corner activate. Click "Save" to publish your changes to the website.
 
