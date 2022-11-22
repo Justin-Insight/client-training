@@ -1,5 +1,5 @@
 ---
-title: "Mind Team Website Training Manual"
+title: "Mind Team Website Training"
 description: "Website Training for Mind Team"
 ---
 
@@ -172,4 +172,4 @@ You can now take advantage of CloudCannon's <a href="https://cloudcannon.com/blo
 
 Your new Jamstack website does all the work upfront to prepare files for your website visitors so pages can be delivered much faster. At the time of the website launch, your site is loading at around 400ms\*.
 
-After editing a page's content, sit back, and enjoy some coffee. Give it a minute to rebuild your website and then go view your newly published change on the front end of your website. Builds typically take about 14 seconds, on average.
+After editing a page's content, sit back, and enjoy some coffee. Give it a minute to rebuild your website and then go view your newly published change on the front end of your website. Builds typically take about 14 seconds.
