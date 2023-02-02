@@ -8,7 +8,10 @@ description: "Website Training for Whistler's Run & Rescue"
 # Table of Contents
 
 - [Table of Contents](#table-of-contents)
-
+  - [What is Jamstack?](#what-is-jamstack)
+    - [Faster performance](#faster-performance)
+    - [More secure](#more-secure)
+    - [Scalability](#scalability)
   - [Logging In](#logging-in)
   - [Admin Dashboard Overview](#admin-dashboard-overview)
     - [Home](#home)
@@ -19,10 +22,13 @@ description: "Website Training for Whistler's Run & Rescue"
     - [Managing Business Info](#managing-business-info)
     - [Managing Social Media](#managing-social-media)
   - [Managing Pages](#managing-pages)
+  - [Adding Events](#adding-events)
   - [Editing Basic SEO Information](#editing-basic-seo-information)
-  - [Inbox](#inbox-2)
+  - [Inbox](#inbox-1)
   - [Special Considerations](#special-considerations)
+    - [Image Handling](#image-handling)
     - [Uploading Images](#uploading-images)
+    - [Bulk Saving of Edits](#bulk-saving-of-edits)
     - [Build Times](#build-times)
 
 ## What is Jamstack?
@@ -92,6 +98,15 @@ Data acts as a database of global information used throughout your website. Data
 2. **Note:** To open the visual editor, if not already open by default, click the three vertical dots and choose, "Open With >" and then select "Visual Editor.” If already in the editor, open the dropdown menu in the top left corner and select visual editor.
 3. Once the editor is open you will see a similar content structure for all pages. All primary pages will contain a Title, SEO, Menu, Hero, and Intro, followed by all content blocks the page uses. Each content block gives a brief overview of what is contained within it.
 4. To edit a content block, click on the content block field, this will open all the fields contained within the block. Once you are done making your changes, click "Save" in the top right corner of the editor.
+
+## Adding Events
+
+Event management is done through the events management software Loxi.
+1. Log into <a href="https://loxi.io/login/" target="_blank" rel="noopener noreferrer nofollower">Loxi</a>.
+2. Click the plus icon in the left hand sidebar area called "Create an Event".
+3. Enter in your event title and event date at a mimimum in order to get started. Optionally, add in your event image and description.
+4. After your initial event details are started, you will be taken to the full events settings page. Go through all of these options to find all the options available for your event.
+5. Click the "Publish" button at the bottom right of the page to publish your new event.
 
 ## Editing Basic SEO Information
 
