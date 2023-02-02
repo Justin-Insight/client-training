@@ -7,27 +7,32 @@ description: "Website Training for Mind Team"
 
 <h2>Table of Contents</h2>
 
-- [Table of Contents](#table-of-contents)
-
-  - [Logging In](#logging-in)
-  - [Admin Dashboard Overview](#admin-dashboard-overview)
-    - [Home](#home)
-    - [Inbox](#inbox)
-    - [Pages](#pages)
-    - [Data](#data)
-  - [Editing Basic Website Information](#editing-basic-website-information)
-    - [Managing Business Info](#managing-business-info)
-    - [Managing Social Media](#managing-social-media)
-  - [Managing Pages](#managing-pages)
-    - [Toggle Blocks](#toggle-blocks)
-    - [List Items](#list-items)
-  - [Adding New Blog Posts](#adding-new-blog-posts)
-  - [Editing Existing Blog Posts](#editing-existing-blog-posts)
-  - [Editing Basic SEO Information](#editing-basic-seo-information)
-  - [Inbox](#inbox-2)
-  - [Special Considerations](#special-considerations)
-    - [Uploading Images](#uploading-images)
-    - [Build Times](#build-times)
+- [What is Jamstack?](#what-is-jamstack)
+  - [Faster performance](#faster-performance)
+  - [More secure](#more-secure)
+  - [Scalability](#scalability)
+- [Logging In](#logging-in)
+- [Admin Dashboard Overview](#admin-dashboard-overview)
+  - [Home](#home)
+  - [Inbox](#inbox)
+  - [Pages](#pages)
+  - [Data](#data)
+- [Editing Basic Website Information](#editing-basic-website-information)
+  - [Managing Business Info](#managing-business-info)
+  - [Managing Social Media](#managing-social-media)
+- [Managing Pages](#managing-pages)
+  - [Toggle Blocks](#toggle-blocks)
+  - [List Items](#list-items)
+- [Adding New Staff Pages](#adding-new-staff-pages)
+- [Adding New Blog Posts](#adding-new-blog-posts)
+- [Editing Existing Blog Posts](#editing-existing-blog-posts)
+- [Editing Basic SEO Information](#editing-basic-seo-information)
+- [Inbox](#inbox-1)
+- [Special Considerations](#special-considerations)
+  - [Image Handling](#image-handling)
+  - [Uploading Images](#uploading-images)
+  - [Bulk Saving of Edits](#bulk-saving-of-edits)
+  - [Build Times](#build-times)
 
 ## What is Jamstack?
 
@@ -110,6 +115,20 @@ To toggle blocks on and off, simply look for the Enabled field on any block. Ena
 ![Mind Team list items preview](/images/my-mind-team-cloudcannon-lists-preview.jpg)
 
 CloudCannon list items give you the ability to drag and reorder blocks of content. List items will be shown with a grid of six dots, use these handles by clicking and holding the list item, now you can drag it into the order you prefer. To add a new list item, click the + Add button at the bottom of the list.
+
+## Adding New Staff Pages
+
+![Mind Team add new staff preview](/images/mind-team-add-new-staff.jpg)
+
+1. To add a new a new staff page, click on the Our Team section of pages within the admin menu options. Click the + Add button at the top right corner of the screen. Then click, + Add New Staff
+2. Once the editor is open you will see a similar content structure as all your pages. The post editor will be split between two main sections, the <a href="https://cloudcannon.com/documentation/articles/introducing-the-data-editor/?ssg=Hugo#data-editing-with-the-sidebar" target="_blank" rel="noopener noreferrer nofollower">data editor</a> and the <a href="https://cloudcannon.com/documentation/articles/introducing-the-content-editor/?ssg=Hugo" target="_blank" rel="noopener noreferrer nofollower">content editor</a>.
+3. Within the data editor, enter your page title, URL if a custom URL is preferred, SEO data like page title, meta description and featured image. **Note:** Your SEO featured image is used in metadata for social media and search engines.
+4. Add new staff headshot
+5. Add job title
+6. Add Zoom room URL
+7. Select a weight, your weight will control the order in which staff get displayed on the page. Without a weight, new team members will be added at the end of the list and sorted in alphabetical order.
+8. Add post content within the content editor and use the formatting options of the WYSIWYG editor to style your post as you need.
+9. When ready to publish, ensure that your post is switched out of a draft state and click Save.
 
 ## Adding New Blog Posts
 
