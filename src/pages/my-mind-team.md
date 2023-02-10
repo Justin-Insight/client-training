@@ -130,6 +130,21 @@ CloudCannon list items give you the ability to drag and reorder blocks of conten
 8. Add post content within the content editor and use the formatting options of the WYSIWYG editor to style your post as you need.
 9. When ready to publish, ensure that your post is switched out of a draft state and click Save.
 
+## Adding New Authors
+
+1. To add a new author to your blog, click Data, then click authors.
+2. Click the + Add button in the top right or clone an existing author. 
+3. Enter in your new author title and name to match exactly as what their name is on their staff page.
+4. Select their headshot
+5. When ready to publish, click Save in the top right corner.
+
+## Adding New Categories
+
+1. To add a new category to your blog, click Data, then click categories.
+2. Click the + Add button in the top right or clone an existing category. 
+3. Enter in your new category title.
+4. When ready to publish, click Save in the top right corner. This category will now be available to select when creating your next blog post.
+
 ## Adding New Blog Posts
 
 ![Mind Team add new blog post preview](/images/add-blog-post-cloudcannon-preview.jpg)
@@ -139,7 +154,8 @@ CloudCannon list items give you the ability to drag and reorder blocks of conten
 3. Within the data editor, enter your post title, URL if a custom URL is preferred, SEO data like page title, meta description and featured image, date, author and category.
 4. **Note:** Your SEO featured image, is used two ways for blog posts. The featured image is used in metadata for social media and search engines, but also as the featured image of the blog post itself. This get's displayed at the top of every post.
 5. Add post content within the content editor and use the formatting options of the WYSIWYG editor to style your post as you need.
-6. When ready to publish, ensure that your post is switched out of a draft state and click Save.
+6. To add an image to the body of your post click the Snippet button, then select responsive image. Upload or select your new image and add alternative text to describe your image.
+7. When ready to publish, ensure that your post is switched out of a draft state and click Save.
 
 ## Editing Existing Blog Posts
 
