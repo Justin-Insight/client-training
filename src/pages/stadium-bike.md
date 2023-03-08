@@ -41,7 +41,7 @@ Here are the main benefits of Jamstack:
 
 Serve pre-built markup and assets over a Content Delivery Network.
 
-![Stadium Bike Website GTmetrix Performance Screenshot](/images/gtmetrix-performance-report-mymindteam.jpg)
+![Stadium Bike Website GTmetrix Performance Screenshot](/images/gtmetrix-performance-report-stadium-bike.jpg)
 
 ### More secure
 
@@ -85,12 +85,13 @@ Data acts as a database of global information used throughout your website. Data
 2. Here you can edit your business name, address, phone, fax, email and social media links.
 3. As soon as you make a change, you will see the save button in the top right corner activate. Click "Save" to publish your changes to the website, or continue to other pages that you need to edit. Your changes will be bulk saved and you can publish all changes together.
 
-### Managing Social Media
+### Managing Locations
 
-1. Navigate to Data > Site Settings.
-2. Your website is preconfigured with options for Facebook, Instagram, Twitter, LinkedIn, and YouTube.
-3. Click on the social media platform you want to add a link to and simply paste your page's URL in the link field.
-4. Click "Save", to publish your change. As soon as you add a link to any of these, the appropriate icon will be displayed in the footer of your website.
+1. Navigate to Data > Locations. Here you will find a list of all data associated with each location.
+2. Ex. To edit an item like your social media, scroll to the Social Media section.
+3. Your website is preconfigured with options for Facebook, Instagram, Twitter, LinkedIn, YouTube and TikTok.
+4. Click on the social media platform you want to add a link to and simply paste your page's URL in the link field.
+5. Click "Save", to publish your change. As soon as you add a link to any of these, the appropriate icon will be displayed in the footer of your website.
 
 ## Managing Pages
 
@@ -131,6 +132,14 @@ If you ever feel the need to edit SEO metadata for your website, SEO settings ca
 Inbox is where you can view and manage the email notifications from your contact forms. When you enter your inbox, you will see a list of all mail notifications that you have received. Click on any notification to view the full email details. You can also click the three vertical dots in the right corner to find options to resend the message, mark it as spam, or delete the message.
 
 ## Special Considerations
+
+### Image Selection
+
+![Image choices do's and do not's](/images/image-choices-do-dont.jpg)
+
+Images on the web can be tough and it's important to be thoughtful with your image selection. In order to be responsive, the vast majority of layout based images are background images. These allows them to be flexible and adjust to the various screen sizes that they will be viewed on. As a result, some outer areas of images will not be displayed. 
+
+You should aim to select images that have center focused subjects and allow plenty of white space between subjects and the edges of your images. The same applies for images that contain embedded text content. Choose images that have lots of white space between text and the edges. Images that have text edge to edge will not fully display your embedded text content. 
 
 ### Image Handling
 
