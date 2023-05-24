@@ -20,6 +20,8 @@ description: "Website Training for Stadium Bike"
   - [Managing Business Info](#managing-business-info)
   - [Managing Social Media](#managing-social-media)
 - [Managing Pages](#managing-pages)
+- [Adding New Blog Posts](#adding-new-blog-posts)
+- [Editing Existing Blog Posts](#editing-existing-blog-posts)
 - [Editing Basic SEO Information](#editing-basic-seo-information)
 - [Special Considerations](#special-considerations)
   - [Image Handling](#image-handling)
@@ -84,22 +86,34 @@ Data acts as a database of global information used throughout your website. Data
 3. Click on the social media platform you want to add a link to and simply paste your page's URL in the link field.
 4. Click "Save", to publish your change. As soon as you add a link to any of these, the appropriate icon will be displayed in the footer of your website.
 
-### Managing Locations
-
-1. Navigate to Data > Locations. Here you will find a list of all data associated with each location.
-2. Ex. To edit an item like your social media, scroll to the Social Media section.
-3. Your website is preconfigured with options for Facebook, Instagram, Twitter, LinkedIn, YouTube and TikTok.
-4. Click on the social media platform you want to add a link to and simply paste your page's URL in the link field.
-5. Click "Save", to publish your change. As soon as you add a link to any of these, the appropriate icon will be displayed in the footer of your website.
-
 ## Managing Pages
 
-![Stadium Bike bulk save Preview Screenshot](/images/milksource-cloudcannon-editor-preview.jpg)
+![Milk Source bulk save Preview Screenshot](/images/milksource-cloudcannon-editor-preview.jpg)
 
 1. Navigate to Pages. Here you will see a list of all your website's pages. Select the page you are looking for by clicking on the preview image of the page. You can also open the editor by clicking the three vertical dots in the top right corner and then selecting your options.
 2. **Note:** To open the visual editor, if not already open by default, click the three vertical dots and choose, "Open With >" and then select "Visual Editor.” If already in the editor, open the dropdown menu in the top left corner and select visual editor.
 3. Once the editor is open you will see a similar content structure for all pages. All primary pages will contain a Title, SEO, Menu, Hero, and Intro, followed by all content blocks the page uses. Each content block gives a brief overview of what is contained within it.
 4. To edit a content block, click on the content block field, this will open all the fields contained within the block. Once you are done making your changes, click "Save" in the top right corner, or continue to other pages that you need to edit. Your changes will be bulk saved and you can publish all changes together.
+
+## Adding New Blog Posts
+
+![Milk Source add new blog post preview](/images/milksource-add-blog-post.jpg)
+
+1. To add a new post, select the + Add button at the top right corner of the screen. Then click, + Add Blog
+2. Once the editor is open you will see a similar content structure as all your pages. The post editor will be split between two main sections, the <a href="https://cloudcannon.com/documentation/articles/introducing-the-data-editor/?ssg=Hugo#data-editing-with-the-sidebar" target="_blank" rel="noopener noreferrer nofollower">data editor</a> and the <a href="https://cloudcannon.com/documentation/articles/introducing-the-content-editor/?ssg=Hugo" target="_blank" rel="noopener noreferrer nofollower">content editor</a>.
+3. Within the data editor, enter your post title, SEO data like page title, meta description and featured image, date, author and category.
+4. **Note:** Your SEO featured image, is used two ways for blog posts. The featured image is used in metadata for social media and search engines, but also as the featured image of the blog post itself. This get's displayed at the top of every post.
+5. Add post content within the content editor and use the formatting options of the WYSIWYG editor to style your post as you need.
+6. To add an image to the body of your post click the Snippet button, then select responsive image. Upload or select your new image and add alternative text to describe your image.
+7. When ready to publish, ensure that your post is switched out of a draft state and click Save.
+
+## Editing Existing Blog Posts
+
+1. Navigate to Blog. Here you will see a list of all your website's posts. Select the post you are looking for by clicking on the preview image of the post. You can also open the editor by clicking the three vertical dots in the top right corner and then selecting your options.
+2. **Note:** To open the visual editor, if not already open by default, click the three vertical dots and choose, "Open With >" and then select "Visual Editor.” If already in the editor, open the dropdown menu in the top left corner and select visual editor.
+3. Once the editor is open you will see a similar content structure as all your pages. The post editor will be split between two main sections, the <a href="https://cloudcannon.com/documentation/articles/introducing-the-data-editor/?ssg=Hugo#data-editing-with-the-sidebar" target="_blank" rel="noopener noreferrer nofollower">data editor</a> and the <a href="https://cloudcannon.com/documentation/articles/introducing-the-content-editor/?ssg=Hugo" target="_blank" rel="noopener noreferrer nofollower">content editor</a>.
+4. To edit your post content within the content editor, use the formatting options of the WYSIWYG editor to style your post as you need.
+5. When ready to publish, click Save, or continue to other pages that you need to edit. Your changes will be bulk saved and you can publish all changes together.
 
 ## Editing Basic SEO Information
 
@@ -123,7 +137,7 @@ All images throughout the website are configured and served through an image tra
 
 You will never need to upload a full-resolution image to your website. Images are the most resource-intensive form of media that your website will load. Loading full-size images will negatively affect the performance of your website and will hurt your search rankings. If you're unsure how to handle images for the web, please reach out to <a href="https://insightcreative.com/contact/" target="_blank" rel="noopener noreferrer" class="external">Insight Creative, Inc.</a> for assistance.
 
-To optimize an image: make sure to only use .jpg image files. .png files save a lot more image data and can easily make an identical image four times the file size of a .jpg. If you are using an image editor like Photoshop, you will have image options when you save. Save as the lowest quality you can before your image starts to look bad (usually 80% quality). You should almost always shoot for under 300kb file size for all images you load to the website. When done right, it’s rare that the loss of image quality will be noticeable to an untrained eye.
+To optimize an image: make sure to only use .jpg image files. .png files save a lot more image data and can easily make an identical image four times the file size of a .jpg. Use a tool like [Squoosh](https://squoosh.app/), Photoshop, or similar image editing tool to resize and optimize your images. Save as the lowest quality you can before your image starts to look bad (usually 80% quality). You should almost always shoot for under 300kb file size for all images you load to the website. When done right, it’s rare that the loss of image quality will be noticeable to an untrained eye.
 
 After you save your image, the front end of the website will automatically optimize and transform your image into a more modern and performant image. This ensures your images are loading as fast as possible.
 
