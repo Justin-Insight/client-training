@@ -53,7 +53,7 @@ If your website suddenly goes viral and has many active users, the CDN seamlessl
 
 Your website content is managed with the content management system <a href="https://cloudcannon.com/" target="_blank" rel="noreferrer" class="external">CloudCannon</a>. To log in to your admin dashboard, navigate to
 
-<a href="https://www.milksource.com/ic-sec=stadium-bike-admin" target="_blank" rel="noopener noreferrer" class="external">https://www.stadiumbike.com/ic-sec=stadium-bike-admin</a>
+<a href="https://www.milksource.com/ic-sec-milk-source-admin" target="_blank" rel="noopener noreferrer" class="external">https://www.milksource.com/ic-sec-milk-source-admin</a>
 
 Enter your password and click "Sign In".
 
