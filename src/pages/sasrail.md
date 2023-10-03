@@ -42,7 +42,9 @@ Here you will find a list of all your website pages.
 
 ### Data
 
-Data acts as a database of global information used throughout your website. Data is split between Global Partials and Site Settings. Global Partials are common blocks used throughout the website such as global Call to Action blocks. Site Settings are general settings like your business name, address, phone number and so on.
+Note: Not much of this is currently used on this website.
+
+Data acts as a database of global information used throughout your website. Site Settings are general settings like your business name, address, phone number and so on.
 
 ## Editing Basic Website Information
 
@@ -53,6 +55,8 @@ Data acts as a database of global information used throughout your website. Data
 3. As soon as you make a change, you will see the save button in the top right corner activate. Click "Save" to publish your changes to the website, or continue to other pages that you need to edit. Your changes will be bulk saved and you can publish all changes together.
 
 ### Managing Social Media
+
+Note: This is not currently used on this website.
 
 1. Navigate to Data > Site Settings.
 2. Your website is preconfigured with options for Facebook, Instagram, Twitter, LinkedIn, and YouTube.
