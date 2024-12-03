@@ -86,8 +86,7 @@ If you ever feel the need to edit SEO metadata for your website, SEO settings ca
 4. **Note:** Your SEO featured image, is used two ways for event posts. The featured image is used in metadata for social media and search engines, but also as the featured image of the event itself. This get's displayed at the top of every post.
 5. Add event details. Click on Event to open up the full list of event details. Enter in an event summary, location start and end date, start and end time. 
 6. Add post content within the content editor and use the formatting options of the WYSIWYG editor to style your post as you need.
-6. Add event details.
-8. When ready to publish, ensure that your post is switched out of a draft state and click Save.
+7. When ready to publish, ensure that your post is switched out of a draft state and click Save.
 
 ## Special Considerations
 
