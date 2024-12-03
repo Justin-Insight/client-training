@@ -18,8 +18,7 @@ description: "Website Training for Christ First"
   - [Managing Social Media](#managing-social-media)
 - [Managing Pages](#managing-pages)
 - [Editing Basic SEO Information](#editing-basic-seo-information)
-- [Adding New Blog Posts](#adding-new-blog-posts)
-- [Editing Existing Blog Posts](#editing-existing-blog-posts)
+- [Adding New Event Posts](#adding-new-blog-posts)
 - [Special Considerations](#special-considerations)
   - [Image Handling](#image-handling)
   - [Uploading Images](#uploading-images)
@@ -77,25 +76,18 @@ Data acts as a database of global information used throughout your website. Data
 
 If you ever feel the need to edit SEO metadata for your website, SEO settings can be found on each individual page. Navigate to the page you want to edit and click open the "SEO" content block. Here you will find Page Title, Meta Description, and Featured Image for your page.
 
-## Adding New Blog Posts
+## Adding New Event Posts
 
 ![Milk Source add new blog post preview](/images/milksource-add-blog-post.jpg)
 
-1. To add a new post, select the + Add button at the top right corner of the screen. Then click, + Add A New Blog Post. Optionally, you can also clone and existing post to use as a starting point.
+1. To add a new event, select the + Add button at the top right corner of the screen. Then click, + Add Event. Optionally, you can also clone and existing post to use as a starting point.
 2. Once the editor is open you will see a similar content structure as all your pages. The post editor will be split between two main sections, the <a href="https://cloudcannon.com/documentation/articles/introducing-the-data-editor/?ssg=Hugo#data-editing-with-the-sidebar" target="_blank" rel="noopener noreferrer nofollower">data editor</a> and the <a href="https://cloudcannon.com/documentation/articles/introducing-the-content-editor/?ssg=Hugo" target="_blank" rel="noopener noreferrer nofollower">content editor</a>.
 3. Within the data editor, enter your post title, SEO data like page title, meta description and featured image, date, author and category.
-4. **Note:** Your SEO featured image, is used two ways for blog posts. The featured image is used in metadata for social media and search engines, but also as the featured image of the blog post itself. This get's displayed at the top of every post.
-5. Add post content within the content editor and use the formatting options of the WYSIWYG editor to style your post as you need.
-6. To add an image to the body of your post click the Snippet button, then select responsive image. Upload or select your new image and add alternative text to describe your image.
-7. Optionally, add an expert. The experts section is a really easy way to simply select a person from your team as the main contact and a CTA at the end of the post. 
+4. **Note:** Your SEO featured image, is used two ways for event posts. The featured image is used in metadata for social media and search engines, but also as the featured image of the event itself. This get's displayed at the top of every post.
+5. Add event details. Click on Event to open up the full list of event details. Enter in an event summary, location start and end date, start and end time. 
+6. Add post content within the content editor and use the formatting options of the WYSIWYG editor to style your post as you need.
+6. Add event details.
 8. When ready to publish, ensure that your post is switched out of a draft state and click Save.
-
-## Editing Existing Blog Posts
-
-1. Navigate to Our News. Here you will see a list of all your website's posts. Select the post you are looking for by clicking on the preview image of the post. You can also open the editor by clicking the three vertical dots in the top right corner and then selecting your options.
-2. Once the editor is open you will see a similar content structure as all your pages. The post editor will be split between two main sections, the <a href="https://cloudcannon.com/documentation/articles/introducing-the-data-editor/?ssg=Hugo#data-editing-with-the-sidebar" target="_blank" rel="noopener noreferrer nofollower">data editor</a> and the <a href="https://cloudcannon.com/documentation/articles/introducing-the-content-editor/?ssg=Hugo" target="_blank" rel="noopener noreferrer nofollower">content editor</a>.
-3. To edit your post content within the content editor, use the formatting options of the WYSIWYG editor to style your post as you need.
-4. When ready to publish, click Save, or continue to other pages that you need to edit. Your changes will be bulk saved and you can publish all changes together.
 
 ## Special Considerations
 
@@ -113,9 +105,9 @@ All images throughout the website are configured and served through an image tra
 
 You will never need to upload a full-resolution image to your website. Images are the most resource-intensive form of media that your website will load. Loading full-size images will negatively affect the performance of your website and will hurt your search rankings. If you're unsure how to handle images for the web, please reach out to <a href="https://insightcreative.com/contact/" target="_blank" rel="noopener noreferrer" class="external">Insight Creative, Inc.</a> for assistance.
 
-To optimize an image: make sure to primarily use .jpg image files. .png files save a lot more image data and can easily make an identical image four times the file size of a .jpg. If you are using an image editor like Photoshop, you will have image options when you save. Save as the lowest quality you can before your image starts to look bad (usually 80% quality). You should almost always shoot for under 300kb file size for all images you load to the website. When done right, it’s rare that the loss of image quality will be noticeable.
+To optimize an image: Use a photo editing tool such as Photoshop or <a href="https://squoosh.app/" target="_blank">https://squoosh.app/</a> to optimize images for the website. Open your image and then set the quality to something like 80 - 85 and then download.
 
-After you save your image, the front end of the website will automatically optimize and transform your image into a more modern and performant image. This ensures your images are loading as fast as possible.
+Make sure to primarily use .jpg image files. .png files save a lot more image data and can easily make an identical image four times the file size of a .jpg. You should almost always shoot for under 200kb file size for all images you load to the website. When done right, it’s rare that the loss of image quality will be noticeable.
 
 </div>
 
