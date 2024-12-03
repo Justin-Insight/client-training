@@ -18,7 +18,7 @@ description: "Website Training for Christ First"
   - [Managing Social Media](#managing-social-media)
 - [Managing Pages](#managing-pages)
 - [Editing Basic SEO Information](#editing-basic-seo-information)
-- [Adding New Event Posts](#adding-new-blog-posts)
+- [Adding New Event Posts](#adding-new-event-posts)
 - [Special Considerations](#special-considerations)
   - [Image Handling](#image-handling)
   - [Uploading Images](#uploading-images)
