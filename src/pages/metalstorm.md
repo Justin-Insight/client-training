@@ -121,14 +121,12 @@ All images throughout the website are configured and served through an image tra
 </div>
 <h4>Important!</h4>
 
-You will never need to upload a full-resolution image to your website. Images are the most resource-intensive form of media that your website will load. Loading full-size images will negatively affect the performance of your website and will hurt your search rankings. If you're unsure how to handle images for the web, please reach out to <a href="https://insightcreative.com/contact/" target="_blank" rel="noopener noreferrer" class="external">Insight Creative, Inc.</a> for assistance.
+You will never want to upload a full-resolution image to your website. Images are the most resource-intensive form of media that your website will load. Loading full-size images will negatively affect the performance of your website and will hurt your search rankings.
 
-To optimize an image: Use a tool like <a href="https://squoosh.app/" target="_blank">Squoosh</a> or another photo editing tool. Make sure to primarily use .jpg image files. .png files save a lot more image data and can easily make an identical image four times the file size of a .jpg. If you are using an image editor like Photoshop, you will have image options when you save. Save as the lowest quality you can before your image starts to look bad (usually 80% quality). You should almost always shoot for under 300kb file size for all images you load to the website. When done right, it’s rare that the loss of image quality will be noticeable.
-
-After you save your image, the front end of the website will automatically optimize and transform your image into a more modern and performant image. This ensures your images are loading as fast as possible.
+To optimize an image: Use a tool like <a href="https://squoosh.app/" target="_blank">Squoosh</a> or another photo editing tool. Make sure to use .jpg image files. Resize the image to the recommended display size. Lastly, lower the image quality to something like 85% - 90% quality. Try to shoot for under 300kb file size for all images you load to the website.
 
 </div>
 
 ### Bulk Saving of Edits
 
-You can now take advantage of CloudCannon's <a href="https://cloudcannon.com/blog/saving-time-our-new-editor-improvements/" target="_blank" rel="noopener noreferrer nofollower">bulk saving of edits</a>. Make multiple edits across pages, files, and collections and save them all simultaneously in a single batch. CloudCannon records your edits as you go, allowing you to save them all in one click. This means you only need to wait for your site to build once.
+You can take advantage of CloudCannon's <a href="https://cloudcannon.com/blog/saving-time-our-new-editor-improvements/" target="_blank" rel="noopener noreferrer nofollower">bulk saving of edits</a>. Make multiple edits across pages, files, and collections and save them all simultaneously in a single batch. CloudCannon records your edits as you go, allowing you to save them all in one click.
