@@ -20,7 +20,8 @@ description: "Website Training for MetalStorm"
 - [Editing Basic SEO Information](#editing-basic-seo-information)
 - [Dynamic Blocks](#dynamic-blocks)
 - [Adding New Team Member](#adding-new-team-member)
-- [Adding New Projects](#adding-new-projects)
+- [Adding New Gallery Images](#adding-new-gallery-images)
+- [Adding New Job Openings](#adding-new-job-openings)
 - [Special Considerations](#special-considerations)
   - [Image Handling](#image-handling)
   - [Uploading Images](#uploading-images)
@@ -99,7 +100,7 @@ The services feed, careers feed and staff feed are populated with dynamic conten
 4. Select an image or upload a new image to the library
 5. When ready to publish, ensure that your post is not in draft state and click Save.
 
-## Adding New Career
+## Adding New Job Openings
 
 1. Navigate to Careers
 2. Either clone an existing item, or select + Add at the top right corner and click Add New Job Post
